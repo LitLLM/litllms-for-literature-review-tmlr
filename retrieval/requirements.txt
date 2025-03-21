@@ -1,0 +1,17 @@
+openai
+pandas
+pyalex
+google-search-results
+faiss-cpu
+openpyxl
+gradio
+wordcloud
+matplotlib
+torch
+transformers
+adapters
+scikit-learn
+sentence-transformers
+numpy
+tqdm
+arxiv
