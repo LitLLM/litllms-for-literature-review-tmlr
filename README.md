@@ -21,7 +21,7 @@ Visit our project page: [https://litllm.github.io](https://litllm.github.io)
 Please refer to the README of `retrieval` and `generation` for instructions to run the retrieval and generation experiments, respectively.
 
 ## Contributors
-Shubham Agarwal¹²³* Gaurav Sahu¹⁴*, Abhay Puri¹*, Issam H. Laradji¹⁵ Krishnamurthy DJ Dvijotham¹, Jason Stanley¹, Laurent Charlin²³⁶, Christopher Pal¹²⁷⁶
+Shubham Agarwal¹²³*, Gaurav Sahu¹⁴*, Abhay Puri¹*, Issam H. Laradji¹⁵, Krishnamurthy DJ Dvijotham¹, Jason Stanley¹, Laurent Charlin²³⁶, Christopher Pal¹²⁷⁶
 
 ### Affiliations
 - [¹ServiceNow Research](https://github.com/serviceNow/)
