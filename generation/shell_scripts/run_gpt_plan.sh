@@ -18,6 +18,4 @@ PYTHONPATH=. python autoreview/models/plan_based_generation.py \
 -m "gpt-3.5-turbo" \
 -d "shubhamagarwal92/rw_2308_filtered" \
 -s "MODEL_OUT_DIR" \
--p "plan_template"
-
-# > $MODEL_OUT_DIR/logs.txt
+-p "plan_template" > $MODEL_OUT_DIR/logs.txt

@@ -17,7 +17,6 @@ python download_s2orc_full_data.py
 # Run as python -m data.filter_s2_data
 PYTHONPATH=. python data/filter_s2_data.py
 
-
 PYTHONPATH=. python data/filter_s2_data.py # > $MODEL_OUT_DIR/logs.txt
 
-python save_as_hf_dataset.py
+PYTHONPATH=. python data/ save_as_hf_dataset.py
