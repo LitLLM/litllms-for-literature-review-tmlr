@@ -9,7 +9,7 @@ conda create -n litllm-generation python=3.11 -y
 conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia -y
 conda install -c conda-forge transformers -y
 
-pip install spacy
+pip install spacy tiktoken langchain
 python -m spacy download en_core_web_sm
 pip install flash-attn==2.1.1 --no-build-isolation
 pip install git+https://github.com/HazyResearch/flash-attention.git@v2.1.1#subdirectory=csrc/rotary
