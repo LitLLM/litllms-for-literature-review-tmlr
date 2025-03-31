@@ -512,7 +512,7 @@ if __name__ == "__main__":
     
     for split in splits:
         if parsed_args.filter_s2orc:
-            # Step 1: Get all mids aids from MXS dataset
+            # Step 1: Get all mids aids from MXS dataset, 2308 entries. 
             # id_list_test.pkl
             downloader.get_all_aid_mid_mxs(split)
             # Step 2: Filter S2ORC huge corpus for found ids as well as recent papers

@@ -1,5 +1,5 @@
 arxiv
-datasets
+datasets==2.18.0
 jupyter
 nltk
 openai
@@ -9,7 +9,6 @@ rouge-score
 tiktoken
 tqdm
 XlsxWriter
-haven-ai
 peft
 trl
 tqdm
@@ -21,10 +20,9 @@ ipdb
 langchain
 spacy
 transformers
-evaluate
+evaluate==0.4.0
 sentencepiece
 ninja
 jsonlines
-# flash-attn
+shortuuid
 optimum
-# autogptq
