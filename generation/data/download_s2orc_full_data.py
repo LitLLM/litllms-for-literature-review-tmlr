@@ -62,7 +62,7 @@ class DataDownloader:
         if not os.path.exists(save_data_path):
             os.makedirs(save_data_path)
         
-        completed = 3
+        completed = -1
         for index, single_chunk in enumerate(data_files):
             if index > completed:
                 download_path = f"{save_data_path}/{data_type}-part{index}.jsonl.gz"

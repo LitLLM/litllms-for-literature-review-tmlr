@@ -12,12 +12,11 @@ export SAVE_DATA_DIR=results/auto_review/dataset/new_dataset/
 mkdir -p "${DATA_DIR}"
 echo "Results are saved in directory: ${DATA_DIR}"
 
+python download_s2orc_full_data.py
+
 # Run as python -m data.filter_s2_data
 PYTHONPATH=. python data/filter_s2_data.py
 
-conda activate autoreview
-
-python download_s2orc_full_data.py
 
 PYTHONPATH=. python data/filter_s2_data.py # > $MODEL_OUT_DIR/logs.txt
 

@@ -9,7 +9,7 @@ set_env_variables(do_hf_login=False)
 import argparse
 from datasets import load_dataset, set_caching_enabled
 from functools import partial
-from autoreview.models.ml_utils import get_gpu_memory, load_all_prompts, Dict2Class
+from autoreview.models.ml_utils import load_all_prompts, Dict2Class
 from autoreview.models.data_utils import (create_model_input, get_complete_mapped_prompt, 
                                           get_sentences_spacy, get_pandas_percentile,
                                           truncate_single_paper_or_input, get_base_name_from_hf_path,
