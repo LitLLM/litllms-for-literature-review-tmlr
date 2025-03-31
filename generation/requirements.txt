@@ -24,6 +24,7 @@ transformers
 evaluate
 sentencepiece
 ninja
-flash-attn
+jsonlines
+# flash-attn
 optimum
-autogptq
+# autogptq

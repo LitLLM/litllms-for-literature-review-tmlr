@@ -8,7 +8,7 @@ from .ml_utils import get_gpu_name
 
 
 def set_env_variables(cache_dir: str = "/mnt/home/cached/", setup_cache: bool = False, do_hf_login: bool = True):
-    get_gpu_name()
+    # get_gpu_name()
     if setup_cache:
         os.environ["HF_HOME"] = cache_dir
         os.environ["TORCH_HOME"] = cache_dir

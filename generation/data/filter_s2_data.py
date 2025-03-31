@@ -507,8 +507,6 @@ class DataDownloader:
 if __name__ == "__main__":
     parsed_args = parse_args()
     downloader = DataDownloader(parsed_args)
-    downloader.inspect_s2orc_dump(parsed_args.savedir)
-    downloader.inspect_s2orc_dump()
 
     splits = ["test", "train"]
     
