@@ -99,7 +99,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "-do",
         "--filter_s2orc",
-        default=False,
+        default=True,
         help="Dataset name",
     )
     # SA: TODO change filter_s2orc

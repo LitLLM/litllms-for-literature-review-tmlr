@@ -5,7 +5,7 @@ echo "Current time : $CURRENT_TIME"
 export CURRENT_DIR=${PWD}
 export PARENT_DIR="$(dirname "$CURRENT_DIR")"
 cd $PARENT_DIR
-export RESULTS_BASE_DIR=/results/auto_review/multixscience/
+export RESULTS_BASE_DIR=results/auto_review/multixscience/
 
 export MODEL_NAME="gpt-3.5-turbo"
 
@@ -18,6 +18,4 @@ PYTHONPATH=. python autoreview/models/plan_based_generation.py \
 -m "gpt-3.5-turbo" \
 -d "shubhamagarwal92/rw_2308_filtered" \
 -s "MODEL_OUT_DIR" \
--p "plan_template"
-
-# > $MODEL_OUT_DIR/logs.txt
+-p "plan_template" > $MODEL_OUT_DIR/logs.txt
