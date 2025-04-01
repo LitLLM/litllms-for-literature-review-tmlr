@@ -20,6 +20,7 @@ Visit our project page: [https://litllm.github.io](https://litllm.github.io)
 
 Please refer to the README of `retrieval` and `generation` for instructions to run the retrieval and generation experiments, respectively.
 
+<<<<<<< HEAD
 ## Contributors
 Shubham Agarwal¹²³*, Gaurav Sahu¹⁴*, Abhay Puri¹*, Issam H. Laradji¹⁵, Krishnamurthy DJ Dvijotham¹, Jason Stanley¹, Laurent Charlin²³⁶, Christopher Pal¹²⁷⁶
 
@@ -35,6 +36,8 @@ Shubham Agarwal¹²³*, Gaurav Sahu¹⁴*, Abhay Puri¹*, Issam H. Laradji¹⁵,
 *Equal Contribution
 
 
+=======
+>>>>>>> e663841 (first commit)
 ## Citations
 
 If you found this work useful, please cite:
@@ -53,4 +56,8 @@ If you found this work useful, please cite:
   journal={arXiv preprint arXiv:2402.01788},
   year={2024}
 }
+<<<<<<< HEAD
 ```
+=======
+```
+>>>>>>> e663841 (first commit)
