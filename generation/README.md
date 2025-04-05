@@ -12,7 +12,13 @@ conda install -c conda-forge transformers -y
 pip install spacy tiktoken langchain
 python -m spacy download en_core_web_sm
 pip install flash-attn==2.1.1 --no-build-isolation
-pip install git+https://github.com/HazyResearch/flash-attention.git@v2.1.1#subdirectory=csrc/rotary
+```
+
+Please make sure you have the `OPENAI_API_KEY` set in your environment. 
+
+```
+# For linux you can save your key in bashrc or zshrc.
+echo "export OPENAI_API_KEY='yourkey'" >> ~/.bashhrc
 ```
 
 ### Experiments

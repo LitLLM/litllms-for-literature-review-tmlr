@@ -1,6 +1,12 @@
 ### Introduction
 
-We use Semantic Scholar API to get the associated data with the references. Follow the `run_data_creation.sh` for more information. 
+We use Semantic Scholar API to get the associated data with the references. Follow the `run_data_creation.sh` for more information. Follow the instructions on the official [website](https://www.semanticscholar.org/product/api#api-key) to get the API key. Please make sure you have the `S2_API_KEY` set in your environment.
+
+```
+# For linux you can save your key in bashrc or zshrc.
+echo "export S2_API_KEY='yourkey'" >> ~/.bashhrc
+```
+
 
 ```
 1. Download the S2ORC full dataset (python download_s2orc_full_data.py)
